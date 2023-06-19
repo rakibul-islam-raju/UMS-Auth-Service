@@ -1,15 +1,25 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 30
-  },
-  "auditLog": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/.f2adafe751b267447e8748815754f36588ee5101-audit.json",
-  "files": [
-    {
-      "date": 1686151843324,
-      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-07.log",
-      "hash": "b7e8b425db6302b9a1a62c0c5f0dca8592aab9f90533defd8543c4a47e98cc5a"
-    }
-  ],
-  "hashType": "sha256"
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/.f2adafe751b267447e8748815754f36588ee5101-audit.json",
+    "files": [
+        {
+            "date": 1686151843324,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-07.log",
+            "hash": "b7e8b425db6302b9a1a62c0c5f0dca8592aab9f90533defd8543c4a47e98cc5a"
+        },
+        {
+            "date": 1686240178786,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-08.log",
+            "hash": "55378e41461121b7a09b072cf882ac5b626103d186a8a4d845817e76550a5fcd"
+        },
+        {
+            "date": 1687193118745,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-19.log",
+            "hash": "3419a4a9915b425a2f71d6a8ab922395c909b70f3742533cfc2e9042d86bfd4f"
+        }
+    ],
+    "hashType": "sha256"
 }

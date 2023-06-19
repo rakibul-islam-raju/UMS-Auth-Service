@@ -1,18 +1,15 @@
 import express, { Application, Response, Request } from "express";
 import cors from "cors";
-import usersRoute from "./app/modules/users/users.route";
-import { logger } from "./shared/logger";
+import { userRoutes } from "./app/modules/users/user.route";
 
 const app: Application = express();
-
-logger.info("infooooo");
 
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // application routes
-app.use("/api/v1/users", usersRoute);
+app.use("/api/v1/users", userRoutes);
 
 // test endpoint
 app.get("/", (req: Request, res: Response) => {

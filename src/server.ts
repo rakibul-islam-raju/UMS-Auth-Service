@@ -1,18 +1,49 @@
 import mongoose from "mongoose";
 import config from "./config";
 import app from "./app";
+import { Server } from "http";
+import { errorLogger, logger } from "./shared/logger";
+
+let server: Server;
+
+// unCaught exception
+process.on("uncaughtException", error => {
+  logger.error(error);
+
+  process.exit(1);
+});
 
 async function main() {
   try {
     await mongoose.connect(`${config.databaseUrl}`);
-    console.log("Database connected");
+    logger.info("Database connected");
 
-    app.listen(`${config.port}`, () => {
-      console.log(`Application running on http://localhost:${config.port}`);
+    server = app.listen(`${config.port}`, () => {
+      logger.info(`Application running on http://localhost:${config.port}`);
     });
-  } catch (err) {
-    console.log("error =>", err);
+  } catch (error) {
+    logger.error(error);
   }
+
+  // unhandled rejection
+  process.on("unhandledRejection", error => {
+    logger.error(error);
+
+    if (server) {
+      server.close(() => {
+        errorLogger.error(error);
+      });
+    }
+    process.exit(1);
+  });
 }
+// unCaught exception
+process.on("SIGTERM", () => {
+  logger.info("SIGTERM recieved.");
+  if (server) {
+    server.close();
+  }
+  process.exit(1);
+});
 
 main();

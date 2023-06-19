@@ -1,7 +1,7 @@
-import usersService from "./users.service";
+import { userService } from "./user.service";
 
 export const generateNextUserId = async (): Promise<string> => {
-  const lastUser = await usersService.findLastUser();
+  const lastUser = await userService.findLastUser();
 
   let nextId = 1;
   if (lastUser && lastUser.id) {

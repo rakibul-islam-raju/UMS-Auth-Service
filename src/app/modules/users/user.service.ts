@@ -1,7 +1,7 @@
 import config from "../../../config";
-import { IUser } from "./users.interface";
-import { User } from "./users.model";
-import { generateNextUserId } from "./users.utils";
+import { IUser } from "./user.interface";
+import { User } from "./user.model";
+import { generateNextUserId } from "./user.utils";
 
 const findLastUser = async (): Promise<IUser | null> => {
   return await User.findOne({}, {}, { sort: { createdAt: -1 } }).exec();
@@ -22,7 +22,7 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
   return createdUser;
 };
 
-export default {
+export const userService = {
   findLastUser,
   createUser,
 };
