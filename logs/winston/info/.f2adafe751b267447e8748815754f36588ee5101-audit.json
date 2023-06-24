@@ -19,6 +19,11 @@
             "date": 1687193118745,
             "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-19.log",
             "hash": "3419a4a9915b425a2f71d6a8ab922395c909b70f3742533cfc2e9042d86bfd4f"
+        },
+        {
+            "date": 1687617416271,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-24.log",
+            "hash": "f32a5ac58187c06e8d62cb2f79d5b4254efe8412212996a7f01b1d34e3c67c32"
         }
     ],
     "hashType": "sha256"

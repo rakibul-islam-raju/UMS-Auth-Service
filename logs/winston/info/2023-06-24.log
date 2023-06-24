@@ -1,0 +1,23 @@
+6/24/2023, 8:37:26 PM [info] error: connect ECONNREFUSED 127.0.0.1:27017
+6/24/2023, 8:38:51 PM [info] info: Database connected
+6/24/2023, 8:38:51 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:20:15 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:20:15 PM [info] info: Database connected
+6/24/2023, 9:20:15 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:20:52 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:20:52 PM [info] info: Database connected
+6/24/2023, 9:20:52 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:21:18 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:21:19 PM [info] info: Database connected
+6/24/2023, 9:21:19 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:23:19 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:23:20 PM [info] info: Database connected
+6/24/2023, 9:23:20 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:23:33 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:23:33 PM [info] info: Database connected
+6/24/2023, 9:23:33 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 9:23:53 PM [info] info: SIGTERM recieved.
+6/24/2023, 9:23:53 PM [info] info: Database connected
+6/24/2023, 9:23:53 PM [info] info: Application running on http://localhost:8000
+6/24/2023, 10:04:02 PM [info] info: Database connected
+6/24/2023, 10:04:02 PM [info] info: Application running on http://localhost:8000
