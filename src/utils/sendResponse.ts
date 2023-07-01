@@ -1,6 +1,11 @@
 type IApiResponse<T> = {
   success: boolean;
   message: string;
+  meta?: {
+    page: number;
+    limit: number;
+    total: number;
+  } | null;
   data: T | null;
 };
 
@@ -14,6 +19,7 @@ const sendResponse = <T>(res: Response, data: IApiResponseArgs<T>): void => {
   const responseData: IApiResponse<T> = {
     success: data.success,
     message: data.message ?? null,
+    meta: data?.meta ?? null ?? undefined,
     data: data?.data ?? null,
   };
 

@@ -29,6 +29,21 @@
             "date": 1687672784495,
             "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-25.log",
             "hash": "43a83dab4259cb5ecbfae2b98241604201848bd840d1a7b21c93656489beb573"
+        },
+        {
+            "date": 1687798280172,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-26.log",
+            "hash": "e67bc48ad276ec0c1303bb70d8291cbe72520e791edee03b08a5000496afb6e2"
+        },
+        {
+            "date": 1687847196463,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-06-27.log",
+            "hash": "b2b9c2c4788ca8bdde810bfca84104cf9748c650cbcb2a2e9d891eacc71f37f4"
+        },
+        {
+            "date": 1688193973407,
+            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/info/2023-07-01.log",
+            "hash": "840acbcdf957367b5f8dbbc9821ef2991f6fa41c486b7a2e0487814174d2f568"
         }
     ],
     "hashType": "sha256"

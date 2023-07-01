@@ -26,3 +26,10 @@ export type IAcademicSemister = {
 };
 
 export type AcademicSemisterModel = Model<IAcademicSemister>;
+
+export type IAcademicSemisterFilters = {
+  searchTerm?: string;
+  title?: string;
+  year?: string;
+  code?: string;
+};
