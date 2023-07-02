@@ -1,50 +1,50 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 30
+  "keep": {
+    "days": true,
+    "amount": 30
+  },
+  "auditLog": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/.8aaa6651fb368702e55d9e9430cacd53ae595a8a-audit.json",
+  "files": [
+    {
+      "date": 1686151832569,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-07.log",
+      "hash": "6e07cb016fd11e2264deb3919da62a1d7ec943e06faddee300fe52828c60368c"
     },
-    "auditLog": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/.8aaa6651fb368702e55d9e9430cacd53ae595a8a-audit.json",
-    "files": [
-        {
-            "date": 1686151832569,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-07.log",
-            "hash": "6e07cb016fd11e2264deb3919da62a1d7ec943e06faddee300fe52828c60368c"
-        },
-        {
-            "date": 1686240178789,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-08.log",
-            "hash": "5f0f446b7deaea655a8dfd9cbcd9570b4da462e679e2d48446f8e315bcf60dec"
-        },
-        {
-            "date": 1687193118749,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-19.log",
-            "hash": "40b5e994159cfd1d87524a2ae49bb2813299761deb916e9f22f0c26119bb2aa2"
-        },
-        {
-            "date": 1687617416274,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-24.log",
-            "hash": "f29780a3cfc787cd97e4d6d222e50ae036911e42413cf71a62ee19426ea8a141"
-        },
-        {
-            "date": 1687672784500,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-25.log",
-            "hash": "8aa8bd560bb565d522fa1d5405c9649af494389b31eae27224b216a1e3eec654"
-        },
-        {
-            "date": 1687798280176,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-26.log",
-            "hash": "7580cae91ba685f3a21671b413ad30f35fd92aabb0f4f22e2d4459e96b238e2f"
-        },
-        {
-            "date": 1687847196467,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-27.log",
-            "hash": "1db14d370a27b9160aa7d325e75f99c7439a2b70b64897c5b3d96cf31d3f4247"
-        },
-        {
-            "date": 1688193973410,
-            "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-07-01.log",
-            "hash": "d2610e318f2322b6532202f4f913dfe2e06acf4b434667a4ed8e421312a5dbb2"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686240178789,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-08.log",
+      "hash": "5f0f446b7deaea655a8dfd9cbcd9570b4da462e679e2d48446f8e315bcf60dec"
+    },
+    {
+      "date": 1687193118749,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-19.log",
+      "hash": "40b5e994159cfd1d87524a2ae49bb2813299761deb916e9f22f0c26119bb2aa2"
+    },
+    {
+      "date": 1687617416274,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-24.log",
+      "hash": "f29780a3cfc787cd97e4d6d222e50ae036911e42413cf71a62ee19426ea8a141"
+    },
+    {
+      "date": 1687672784500,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-25.log",
+      "hash": "8aa8bd560bb565d522fa1d5405c9649af494389b31eae27224b216a1e3eec654"
+    },
+    {
+      "date": 1687798280176,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-26.log",
+      "hash": "7580cae91ba685f3a21671b413ad30f35fd92aabb0f4f22e2d4459e96b238e2f"
+    },
+    {
+      "date": 1687847196467,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-06-27.log",
+      "hash": "1db14d370a27b9160aa7d325e75f99c7439a2b70b64897c5b3d96cf31d3f4247"
+    },
+    {
+      "date": 1688193973410,
+      "name": "/home/raju/Documents/Apollo/university-management/auth-service/backend/logs/winston/error/2023-07-01.log",
+      "hash": "d2610e318f2322b6532202f4f913dfe2e06acf4b434667a4ed8e421312a5dbb2"
+    }
+  ],
+  "hashType": "sha256"
 }
